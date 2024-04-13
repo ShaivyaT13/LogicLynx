@@ -10,7 +10,11 @@ html{
 
 
 .hero {
+<<<<<<<< HEAD:Client/style.css
     background-image: url(Assets/bg.jpeg);
+========
+    background-image: url(bg.jpeg);
+>>>>>>>> 3e99963ace46979ed8548b6a1547a71ec21e6e11:homePage.css
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -118,7 +122,7 @@ ul>li:hover>ul.dropdown {
 }
 .aimodels{
     background-color: #334B35;
-    height: 190vh;
+    height: 180vh;
 }
 #ai{
     text-align: center;
@@ -142,7 +146,11 @@ ul>li:hover>ul.dropdown {
     
 }
 .sec1{
+<<<<<<<< HEAD:Client/style.css
     background-image: url(Assets/model1.jpg);
+========
+    background-image: url(model1.jpg);
+>>>>>>>> 3e99963ace46979ed8548b6a1547a71ec21e6e11:homePage.css
     background-repeat: no-repeat;
     background-size: contain;
     height: 45vh;
@@ -164,7 +172,11 @@ ul>li:hover>ul.dropdown {
     font-family: 'roboto',sans-serif;
 }
 .sec4{
+<<<<<<<< HEAD:Client/style.css
     background-image: url(Assets/fertiliser.jpeg);
+========
+    background-image: url(fertiliser.jpeg);
+>>>>>>>> 3e99963ace46979ed8548b6a1547a71ec21e6e11:homePage.css
     background-repeat: no-repeat;
     background-size: contain;
     height: 45vh;
@@ -200,143 +212,3 @@ ul>li:hover>ul.dropdown {
     font-weight: 600;
     border-color:#D09632;
 }
-.news{
-    background-color:#283618;
-    height: 96vh;
-    }
-    #article{
-        color: #F8CC77;
-        text-align: center;
-        font-family: 'roboto',sans-serif;
-        font-size: 50px;
-        padding-top: 7vh;
-        font-weight: 400;
-    }
-    .cards{
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 8vh;
-    }
-    .parent-cont{
-    height:58vh;
-    width:23vw;
-    border-radius: 0.5cm;
-    background-color: #5e6e46; 
-    }
-    
-    #newsimg{
-        height:35vh;
-        width:23vw;
-        border-radius: .2cm;
-    }
-    
-    .headline{
-        color:#283618;
-        margin: 20px 10px;
-        font-family: 'playful display',sans-serif ;
-        font-size: 22px;
-        font-weight: 400;
-    }
-    #btn{
-        background-color: #D09632;
-        border-radius: 20px;
-        padding:2vh 1vw 2vh 1vw;
-        color: #213118;
-        line-height: 50%;
-        font-weight: 600;
-        border-color:#D09632;
-        margin-left:8vw;
-        margin-top: 2vh;
-    }
-    .contact{
-        display: flex;
-        background-color: #5e6e46;
-        color: #fefae0;
-        padding-bottom: 3%;
-    }
-    #s1{
-        width: 50%;
-        padding-left: 16%;
-        padding-top: 3%;
-        
-    }
-    #s2{
-        padding-top: 6%;
-    }
-    #line1{
-        font-size: 26px;
-    }
-    #line2{
-        font-size: 36px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: bold;
-    }
-    #line3{
-        font-size: 18px;
-    }
-    .input{
-        padding-left: 2%;
-        opacity: 0.3;
-        background-color: rgb(3, 3, 3);
-        border-radius: 10px;
-        color: white;
-    }
-    #name{
-        height: 4vh;
-        width:27vw;
-    }
-    #phone{
-        height: 4vh;
-        width:27vw;
-    }
-    #email{
-        height: 4vh;
-        width:27vw;
-    }
-    #message{
-        height: 17vh;
-        width:27vw;
-    }
-    #select{
-        padding: 1vh 1vw;
-        background-color:#bc6c25;
-        color: black;
-        font-size: 13px;
-        border-radius: 15px;
-    }
-    #select:hover{
-        background-color: #b87a45;
-        cursor: pointer;
-    }
-    .footer{
-        background-color:#283618;
-        height: 50vh;
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 10vh;
-    }
-    #part1{
-        width:22vw;
-        color: #FFFFFF;}
-    #head{
-        font-size: 22px;
-        font-weight: 500;
-        font-family: 'Playfair Display',sans-serif;
-    }
-    #vis{
-        font-size: 16px;
-        font-weight: 100;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #part2>p{
-        font-family: 'livvic',sans-serif;
-        font-size: 20px;
-        font-weight:200;
-        color:#FFFFFF;
-    }
-    #part2>li{
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: 100;
-        font-size: 16px;
-        color:#FFFFFF;
-    }

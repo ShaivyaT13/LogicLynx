@@ -78,13 +78,13 @@ ul>li:hover>ul.dropdown {
     color: #fefae0;
     padding-bottom: 3%;
 }
-#sec1{
+#s1{
     width: 50%;
     padding-left: 16%;
     padding-top: 3%;
     
 }
-#sec2{
+#s2{
     padding-top: 6%;
 }
 #line1{
@@ -121,14 +121,14 @@ ul>li:hover>ul.dropdown {
     height: 17vh;
     width:27vw;
 }
-button{
+#select{
     padding: 1vh 1vw;
     background-color:#bc6c25;
     color: black;
     font-size: 13px;
     border-radius: 15px;
 }
-button:hover{
+#select:hover{
     background-color: #b87a45;
     cursor: pointer;
 }
