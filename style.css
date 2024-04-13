@@ -116,3 +116,87 @@ ul>li>a:hover {
 ul>li:hover>ul.dropdown {
     display: block;
 }
+.aimodels{
+    background-color: #334B35;
+    height: 180vh;
+}
+#ai{
+    text-align: center;
+    color: #F8CC77;
+    font-family: 'roboto',sans-serif;
+    font-size: 50px;
+    padding-top: 7vh;
+    font-weight: 400;
+}
+#models{
+    background-color: #223017;
+    height: 66vh;
+    width:85vw;
+    margin-top:6vh;
+    margin-left:3vw;
+    padding-top: 7vh;
+    padding-left: 8vw;
+    border-radius: 10px;
+    display: flex;
+    gap:3rem;
+    
+}
+.sec1{
+    background-image: url(model1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45vh;
+    width:20vw;
+    border:8px solid #FDFADE;
+    border-radius: 10px;
+}
+.sec2{
+    height: 56vh;
+    width:44vw;
+    padding-left: 10vw;
+    font-family: 'roboto',sans-serif;
+}
+
+.sec3{
+    height: 56vh;
+    width:47vw;
+    padding-right: 10vw;
+    font-family: 'roboto',sans-serif;
+}
+.sec4{
+    background-image: url(fertiliser.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45vh;
+    width: 19vw;
+    border:8px solid #FDFADE;
+    border-radius: 10px;
+}
+#crm{
+    font-weight: 500;
+    font-size: 40px;
+    color: #FEFADF;
+
+}
+#des1{
+    font-weight: 100;
+    font-size: 23px;
+    color: #F5F5F5;
+}
+#p1{
+    display: flex;
+    gap: 1rem;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 150;
+    font-family: 'roboto',sans-serif;
+}
+#btn{
+    background-color: #D09632;
+    border-radius: 20px;
+    padding:2vh 1vw 2vh 1vw;
+    color: #213118;
+    line-height: 50%;
+    font-weight: 600;
+    border-color:#D09632;
+}
