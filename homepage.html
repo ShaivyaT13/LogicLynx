@@ -11,11 +11,14 @@
     <!-- google fonts playfair display -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
     <!-- google fonts roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -23,49 +26,38 @@
         <div id="header">
             <img id="logo" src="logo.png">
         </div>
-        <div id="menu">
-            <a class="tab">Home</a>
-            <a class="tab">About</a>
-            <a class="tab" id="dropdown" onclick="myFunction()">Our Models</a><i class="fa fa-caret-down"></i>
-            <ul class="dropdown" id="mydropdown">
-                <li><a href="form1.html">Crop Recommendation</a></li>
-                <li><a href="form1.html">Fertiliser Recommendation</a></li>
-            </ul>
-            <a class="tab">News</a>
-            <a class="tab">Facts</a>
-            <a class="tab">Chat Bot</a>
-            <a class="tab">Contact Us</a>
-        </div>
+        <ul class="navText">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Models ▾</a>
+                <ul class="dropdown">
+                    <li><a href="#">Crop Recommendation Model</a></li>
+                    <li><a href="#">Fertilizer Advisor Model</a></li>
+                </ul>
+            </li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Facts</a></li>
+            <li><a href="#">ChatBot</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
         <div id="google_translate_element"></div>
     </div>
     <div class="hero">
         <div id="title">
-            Grow&NourishAI
+            Grow&Nourish AI
         </div>
         <div id="vision">
-            Intelligent Crop and Fertilizer Recommendation Platform for Enhanced Agricultural Productivity and Sustainability
+            Intelligent Crop and Fertilizer Recommendation Platform for Enhanced Agricultural Productivity and
+            Sustainability
         </div>
         <br>
         <button id="apply">Know More</button>
     </div>
-    <div class="aimodels">
-        <div id="ai">Our AI Models</div>
-        <div class="models">
-            <div id="model1">
-                <div class="sec1">
-                </div>
-                <div class="sec2">
-                    <p id="crm">Crop Recommendation Model</p><br><br><p id="des">
-                        Our Smart AI Model to predict which cropon your land based on varius input.It provides a friendly platform where you can get precise crop recommendation. 
-                    </p>
-                </div>
-    </div></div>
 
 
     <script src="script.js"></script>
     <script type="text/javascript"
         src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </body>
 
 </html>
