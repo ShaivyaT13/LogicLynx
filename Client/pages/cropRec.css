@@ -80,7 +80,7 @@ a{
 .hero{
     height: 100vh;
     width: 100vw;
-    background-image: url(Assets/pexels-photo-96715.jpeg);
+    background-image: url(../Assets/pexels-photo-96715.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;

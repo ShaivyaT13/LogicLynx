@@ -80,7 +80,7 @@ a{
 .hero{
     height: 100vh;
     width: 100vw;
-    background-image: url(Assets/pexels-antony-trivet-12626272.jpg);
+    background-image: url(../Assets/pexels-antony-trivet-12626272.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;

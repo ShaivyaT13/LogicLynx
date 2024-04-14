@@ -10,7 +10,7 @@ html {
 
 
 .hero {
-    background-image: url(Assets/pexels-todd-trapani-1382102.jpg);
+    background-image: url(../Assets/pexels-todd-trapani-1382102.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
@@ -146,7 +146,7 @@ ul>li>a:hover {
 }
 
 .sec1 {
-    background-image: url(Assets/pexels-tom-fisk-1483880.jpg);
+    background-image: url(../Assets/pexels-tom-fisk-1483880.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
@@ -170,7 +170,7 @@ ul>li>a:hover {
 }
 
 .sec4 {
-    background-image: url(Assets/pexels-antony-trivet-12626272.jpg);
+    background-image: url(../Assets/pexels-antony-trivet-12626272.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45vh;
