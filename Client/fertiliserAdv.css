@@ -80,7 +80,7 @@ a{
 .hero{
     height: 100vh;
     width: 100vw;
-    background-image: url(pexels-photo-96715.jpeg);
+    background-image: url(Assets/pexels-antony-trivet-12626272.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -149,4 +149,44 @@ ul>li>a:hover {
 
 ul>li:hover>ul.dropdown {
     display: block;
+}
+
+
+.footer {
+    background-color: #283618;
+    height: 20vh;
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
+#part1 {
+    width: 22vw;
+    color: #FFFFFF;
+}
+
+#head {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.usefulLinks>div{
+    color: #5e6e46;
+}
+
+.usefulLinks>ul{
+    padding-top: 2px;
+    list-style: none;
+    display: flex;
+}
+
+.usefulLinks>ul>li{
+    padding: 0px 2px;
+    color: #5e6e46
+}
+
+.usefulLinks>ul>li>a{
+    text-decoration: none;
+    color: white;
 }
