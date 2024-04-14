@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation Model | Grow&Nourish AI</title>
+    <link rel="stylesheet" href="../static/croprec.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div id="header">
+            <img id="logo" src="logo.png">
+        </div>
+
+        <ul class="navText">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Our Models ▾</a>
+                <ul class="dropdown">
+                    <li><a href="#">Crop Recommendation Model</a></li>
+                    <li><a href="fert.html">Fertilizer Advisor Model</a></li>
+                </ul>
+            </li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Facts</a></li>
+            <li><a href="#">ChatBot</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <form action="/predict" method="POST" class="col s12">
+        <div class=" box">
+            <div class="modelName">Crop Recommendation</div>
+            <div class="formtag">Temperature</div>
+            <input type="number" name="Temperature" placeholder="Enter Temperature">
+            <br>
+            <div class="formtag">Humidity</div>
+            <input type="number" name="Humidity" placeholder="Enter Humidity">
+            <br>
+            <div class="formtag">pH</div>
+            <input type="number" name="pH" placeholder="Enter pH">
+            <br>
+            <div class="formtag">Rainfall</div>
+            <input type="number" name="Rainfall" placeholder="Enter Rainfall">
+            <br>
+            <button type="submit">Submit</button>
+            {{prediction_text}}
+        </div>
+        </form>
+    </div>
+
+    
+    <div class="footer">
+        <div id="head">Grow&NourishAI</div><br>
+        <div class="usefulLinks">
+            <div>Useful Links</div>
+            <ul>
+                <li><a href="#">Crop Recommendation model</a></li>
+                <li>|</li>
+                <li><a href="fertiliserAdv.html">Fertilisor Advisor model</a></li>
+                <li>|</li>
+                <li><a href="#">News</a></li>
+                <li>|</li>
+                <li><a href="#">Facts</a></li>
+                <li>|</li>
+                <li><a href="#">Chatbot</a></li>
+                <li>|</li>
+                <li><a href="#">About Us</a></li>
+                <li>|</li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+
+</html>
