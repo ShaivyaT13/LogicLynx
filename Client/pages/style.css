@@ -48,6 +48,11 @@ html {
     font-weight: 700;
 }
 
+#apply>a{
+    text-decoration: none;
+    color: black;
+}
+
 
 #logo {
     height: 5vw;
@@ -65,7 +70,8 @@ html {
 }
 
 .navText {
-    padding-left: 15vw;
+    padding-left: 25vw;
+    padding-right: 10vw;
     padding-top: 1vw;
     list-style: none;
     background: #283618;
@@ -385,4 +391,14 @@ ul>li>a:hover {
 .btn>a{
     text-decoration: none;
     color: black;
+}
+
+.uLinks>a{
+    font-size: 16px;
+    padding-bottom: 10vh;
+}
+
+#ulinkslist{
+    padding-left: 0px;
+    margin-left: 0px;
 }

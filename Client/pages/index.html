@@ -30,22 +30,20 @@
 <body>
     <div class="nav">
         <div id="header">
-            <img id="logo" src="./templates/logo.png">
+            <img id="logo" src="templates/logo.png">
         </div>
         <ul class="navText">
             <li><a href="#">Home</a></li>
             <li><a href="#">Our Models ▾</a>
                 <ul class="dropdown">
                     <li><a href="http://127.0.0.1:5000">Crop Recommendation Model</a></li>
-                    <li><a href="./templates/fert.html">Fertilizer Advisor Model</a></li>
+                    <li><a href="templates/fert.html">Fertilizer Advisor Model</a></li>
                 </ul>
             </li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Facts</a></li>
             <li><a
                     href="https://mediafiles.botpress.cloud/9b301c3d-2387-49c0-9af0-eed2b20b8d70/webchat/bot.html">ChatBot</a>
             </li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
         <div id="google_translate_element"></div>
@@ -59,7 +57,7 @@
             Sustainability
         </div>
         <br>
-        <button id="apply">Know More</button>
+        <button id="apply"><a href="about.html">Know More</a></button>
     </div>
     <div class="aimodels">
         <div id="ai" style="font-family: 'Playfair display', sans-serif;">Our AI Models</div>
@@ -82,7 +80,7 @@
                     <div id="p1"><i class="fa-solid fa-circle-check" style="color: #f7c35f;"></i>
                         <p>Can help in analyzing various agricultural practices like crop rotation.</p>
                     </div><br><br>
-                    <button class="btn"><a href="croprec.html">VISIT</a></button>
+                    <button class="btn"><a href="http://127.0.0.1:5000">VISIT</a></button>
                 </div>
             </div>
             <div id="models">
@@ -104,11 +102,13 @@
                         <i class="fa-solid fa-circle-check" style="color: #f7c35f;"></i>
                         <p>Fulfills the nutrient requirement of crop in its various growth stages</p>
                     </div><br><br>
-                    <button class="btn"><a href="fert.html">VISIT</a></button>
+                    <button class="btn"><a href="templates/fert.html">VISIT</a></button>
                 </div>
                 <div class="sec4"></div>
             </div>
         </div>
+
+
         <div class="news">
             <div id="article" style="font-family: 'Playfair display', sans-serif">News and Articles</div>
             <div class="cards">
@@ -148,6 +148,8 @@
 
             </div>
         </div>
+
+
         <div class="contact">
             <div id="s1">
                 <br>
@@ -182,22 +184,14 @@
             <div id="head">Grow&NourishAI</div><br>
             <div class="usefulLinks">
                 <div>Useful Links</div>
-                <ul>
-                    <li><a href="cropRec.html">Crop Recommendation model</a></li>
-                    <li>|</li>
-                    <li><a href="fertiliserAdv.html">Fertilisor Advisor model</a></li>
-                    <li>|</li>
-                    <li><a href="#">News</a></li>
-                    <li>|</li>
-                    <li><a href="#">Facts</a></li>
-                    <li>|</li>
-                    <li><a
+                <ul id="ulinkslists">
+                    <li class="uLinks"><a href=http://127.0.0.1:5000">Crop Recommendation model</a></li>
+                    <li class="uLinks"><a href="templates/fert.html">Fertilisor Advisor model</a></li>
+                    <li class="uLinks"><a
                             href="https://mediafiles.botpress.cloud/9b301c3d-2387-49c0-9af0-eed2b20b8d70/webchat/bot.html">Chatbot</a>
                     </li>
-                    <li>|</li>
-                    <li><a href="#">About Us</a></li>
-                    <li>|</li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li class="uLinks"><a href="about.html">About Us</a></li>
+                    <li class="uLinks"><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
