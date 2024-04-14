@@ -6,6 +6,8 @@
 
 html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-height: fit-content;
+    background-color: #223017;
 }
 
 

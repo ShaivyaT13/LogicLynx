@@ -1,41 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Grow&Nourish AI</title>
-    <link rel="stylesheet" href="contact.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Reddit Mono">
+    <title>Grow&Nourish AI</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--dropdown icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google fonts playfair display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <!-- google fonts roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+
     <div class="nav">
         <div id="header">
-            <img id="logo" src="LogicLynx/Client/Assets/logo.png">
+            <img id="logo" src="templates/logo.png">
         </div>
         <ul class="navText">
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Our Models ▾</a>
                 <ul class="dropdown">
-                    <li><a href="cropRec.html">Crop Recommendation Model</a></li>
-                    <li><a href="fertiliserAdv.html">Fertilizer Advisor Model</a></li>
+                    <li><a href="http://127.0.0.1:5000">Crop Recommendation Model</a></li>
+                    <li><a href="templates/fert.html">Fertilizer Advisor Model</a></li>
                 </ul>
             </li>
-            <li><a href="#">News</a></li>
-            <li><a href="#">Facts</a></li>
-            <li><a href="#">ChatBot</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a
+                    href="https://mediafiles.botpress.cloud/9b301c3d-2387-49c0-9af0-eed2b20b8d70/webchat/bot.html">ChatBot</a>
+            </li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
         <div id="google_translate_element"></div>
     </div>
+
     <div class="contact">
         <div id="s1">
-            <p id="line1">Contact Now</p>
-            <br><p id="line2">GET IN TOUCH</p><br>
+            <br>
+            <p id="line2">GET IN TOUCH</p><br>
             <p id="line3">Drop us your details for a quick response.</p><br>
-            <br><p id="line3">PHONE<br>+91 97485 72321<br>+91 90412 43168</p>
-            <br><p id="line3">EMAIL<br>needhelp.grownourish.org</p><br>
-            <p id="line3">ADDRESS<br>NIT Patna, Patna University Campus, Bihar, India</p>
+            <br>
+            <p class="line3">PHONE</p>
+            <p id="phNo"></p>Manya Gupta - +91 97485 72321<br>Prisha Garg - +91 90412 43168<br>Shanvi Dixit -
+            8810904010<br>Shaivya Tripathi - 9870581761</p>
+            <br>
+            <p class="line3">EMAIL</p>
+            <p>needhelp.grownourish.org</p>
+            <br>
+            <p class="line3">ADDRESS</p>
+            <p>NIT Patna, Patna University Campus, Bihar, India</p>
         </div>
         <div id="s2">
             <input type="text" placeholder="Your Name" id="name" class="input">
@@ -47,31 +76,21 @@
             <input type="text" placeholder="Your Message" id="message" class="input">
             <br><br><br>
             <button id="select">SEND MESSAGE</button>
-        </div>    
+        </div>
     </div>
 
     <div class="footer">
         <div id="head">Grow&NourishAI</div><br>
         <div class="usefulLinks">
             <div>Useful Links</div>
-            <ul>
-                <li><a href="cropRec.html">Crop Recommendation model</a></li>
-                <li>|</li>
-                <li><a href="fertiliserAdv.html">Fertilisor Advisor model</a></li>
-                <li>|</li>
-                <li><a href="#">News</a></li>
-                <li>|</li>
-                <li><a href="#">Facts</a></li>
-                <li>|</li>
-                <li><a href="#">Chatbot</a></li>
-                <li>|</li>
-                <li><a href="#">About Us</a></li>
-                <li>|</li>
-                <li><a href="#">Contact Us</a></li>
+            <ul id="ulinkslists">
+                <li class="uLinks"><a href="http://127.0.0.1:5000">Crop Recommendation model</a></li>
+                <li class="uLinks"><a href="templates/fert.html">Fertilizer Advisor model</a></li>
+                <li class="uLinks"><a
+                        href="https://mediafiles.botpress.cloud/9b301c3d-2387-49c0-9af0-eed2b20b8d70/webchat/bot.html">Chatbot</a>
+                </li>
+                <li class="uLinks"><a href="about.html">About Us</a></li>
+                <li class="uLinks"><a href="contact.html">Contact Us</a></li>
             </ul>
         </div>
     </div>
-    
-    <script src="script.js"></script>
-</body>
-</html>
