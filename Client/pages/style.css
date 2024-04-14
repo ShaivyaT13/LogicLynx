@@ -183,6 +183,7 @@ ul>li>a:hover {
     font-weight: 500;
     font-size: 40px;
     color: #FEFADF;
+    font-family: 'Playfair display', sans-serif;
 }
 
 #des1 {
@@ -249,11 +250,11 @@ ul>li>a:hover {
     color: #283618;
     margin: 20px 10px;
     font-family: 'playful display', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
 }
 
-#btn {
+.btn {
     background-color: #D09632;
     border-radius: 20px;
     padding: 2vh 1vw 2vh 1vw;
@@ -261,7 +262,7 @@ ul>li>a:hover {
     line-height: 50%;
     font-weight: 600;
     border-color: #D09632;
-    margin-left: 8vw;
+    margin-left: .5vw;
     margin-top: 2vh;
 }
 
@@ -379,4 +380,9 @@ ul>li>a:hover {
 .usefulLinks>ul>li>a{
     text-decoration: none;
     color: white;
+}
+
+.btn>a{
+    text-decoration: none;
+    color: black;
 }
